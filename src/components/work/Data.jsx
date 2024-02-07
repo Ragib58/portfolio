@@ -1,40 +1,45 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Work1 from "../../assets/educat.jpg";
+import Work2 from "../../assets/expense.png";
+import Work3 from "../../assets/starbucks.png";
+import Work4 from "../../assets/or.png";
+import Work5 from "../../assets/landing.png";
 
 export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'web Design',
+        title: 'Educational Website',
         category: 'Web',
+        url: 'https://educat-dev.vercel.app/',
     },
 
     {
         id: 2,
         image: Work2,
-        title: 'App mobile',
+        title: 'Expense Tracker',
         category: 'App',
+        url: 'https://expense-tracker-amber-three.vercel.app/'
     },
     {
         id: 3,
         image: Work3,
-        title: 'Design web',
+        title: 'Starbucks Landing Page',
         category: 'Web',
+        url: 'https://starbuks-landing-page.vercel.app/'
     },
     {
         id: 4,
         image: Work4,
-        title: 'T-shart Design',
-        category: 'Design',
+        title: 'Company Website',
+        category: 'web',
+        url: '#'
     },
     {
         id: 5,
         image: Work5,
-        title: 'Mobile app',
-        category: 'App',
+        title: 'Nike Landing Page',
+        category: 'web',
+        url: 'https://react-landing-page-mu.vercel.app/'
     },
 ];
 
@@ -48,8 +53,8 @@ export const projectsNav = [
     {
         name: 'App',
     },
-    {
-        name: 'Design',
-    },
+    // {
+    //     name: 'Design',
+    // },
 
 ];
