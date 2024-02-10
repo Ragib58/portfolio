@@ -3,6 +3,7 @@ import Work2 from "../../assets/expense.png";
 import Work3 from "../../assets/starbucks.png";
 import Work4 from "../../assets/or.png";
 import Work5 from "../../assets/landing.png";
+import Work6 from "../../assets/medical.png";
 
 export const projectsData = [
     {
@@ -40,6 +41,13 @@ export const projectsData = [
         title: 'Nike Landing Page',
         category: 'web',
         url: 'https://react-landing-page-mu.vercel.app/'
+    },
+    {
+        id: 6,
+        image: Work6,
+        title: 'Medical App',
+        category: 'web',
+        url: 'https://medical-web-liard.vercel.app/'
     },
 ];
 
